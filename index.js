@@ -8,3 +8,4 @@ const app = express();
 app.get('/uuid', (req, res) => res.send(uuid()));
 
 app.listen(process.env.PORT);
+console.log(`Listening on port ${process.env.PORT}`);
